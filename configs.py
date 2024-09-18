@@ -6,7 +6,7 @@ class Config(object):
   BOT_TOKEN = os.environ.get("BOT_TOKEN", "6699190464:AAG0Z8EGVxCnJ0hoMAO6mUvkYZnLZ7Wkl0U")
   BOT_USERNAME = os.environ.get("BOT_USERNAME", "File_sharing_A_2_Z_Bot")
   DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002109745938"))
-  SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "MoneyKamalo.com")
+  SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "https://gplinks.co")
   SHORTLINK_API = os.environ.get('SHORTLINK_API', "2a8dda5cfa795876053db82cf5f6ab1aa9362893")
   BOT_OWNER = int(os.environ.get("BOT_OWNER", "5213073489"))
   DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://aadarshkumar1234768:Q8ptH5spkMkR93eg@cluster0.0ntbfcn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
