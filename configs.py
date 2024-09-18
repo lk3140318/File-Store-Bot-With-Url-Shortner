@@ -3,8 +3,8 @@ import os
 class Config(object):
   API_ID = int(os.environ.get("API_ID", "24335028"))
   API_HASH = os.environ.get("API_HASH", "b204ec833fb451fb913fc8e683b232d0")
-  BOT_TOKEN = os.environ.get("BOT_TOKEN", "6699190464:AAG0Z8EGVxCnJ0hoMAO6mUvkYZnLZ7Wkl0U")
-  BOT_USERNAME = os.environ.get("BOT_USERNAME", "File_sharing_A_2_Z_Bot")
+  BOT_TOKEN = os.environ.get("BOT_TOKEN", "7531498113:AAESwZ-J9SX92mvjO7risOzFYvnDrc727OM")
+  BOT_USERNAME = os.environ.get("BOT_USERNAME", "Files_Red_bot")
   DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002109745938"))
   SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "https://gplinks.co")
   SHORTLINK_API = os.environ.get('SHORTLINK_API', "2a8dda5cfa795876053db82cf5f6ab1aa9362893")
